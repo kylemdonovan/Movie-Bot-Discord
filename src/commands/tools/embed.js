@@ -1,5 +1,6 @@
 const { SlashCommandBuilder, EmbedBuilder, Embed } = require('discord.js');
 
+
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('embed')
