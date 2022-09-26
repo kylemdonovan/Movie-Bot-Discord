@@ -10,7 +10,7 @@ module.exports = {
             fetchReply: true
     });
 
-        const newMessage = `Not yet implemented but coming soon!`
+        const newMessage = 'Not yet implemented but coming soon!'
         await interaction.editReply({
             content: newMessage
         });
